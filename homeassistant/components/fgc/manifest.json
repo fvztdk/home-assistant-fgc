@@ -1,0 +1,14 @@
+{
+  "domain": "fgc",
+  "name": "FGC",
+  "codeowners": [
+    "@fvztdk"
+  ],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/fgc",
+  "iot_class": "cloud_polling",
+  "quality_scale": "bronze",
+  "requirements": [
+    "gtfs-realtime-bindings==1.0.0"
+  ]
+}

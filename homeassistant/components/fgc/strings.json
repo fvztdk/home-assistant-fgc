@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select Line",
+        "data": {
+          "line": "FGC Line"
+        },
+        "data_description": {
+          "line": "The FGC line to monitor"
+        }
+      },
+      "station": {
+        "title": "Select Station",
+        "data": {
+          "station": "Station"
+        },
+        "data_description": {
+          "station": "The station to monitor"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "cannot_get_stations": "Failed to load stations"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
